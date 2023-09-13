@@ -6,6 +6,6 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Igor Savastsiuk']
   spec.email       = 'iggysav@gmail.com'
   spec.files       = ['lib/gem_translator.rb']
-  spec.homepage    = 'https://github.com/iggysav/'
+  spec.homepage    = 'https://github.com/iggysav/gem-translator'
   spec.license     = 'MIT'
 end
