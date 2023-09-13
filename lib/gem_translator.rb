@@ -5,10 +5,10 @@ require 'open-uri'
 require 'nokogiri'
 
 class Translator
-  def initialize(source_language, target_language)
+  def initialize(source_language, target_language, api_key)
     @source_language = source_language
     @target_language = target_language
-    @api_key = '3d9d26bb72mshdf0a46c346b0b91p143602jsn02e9b0d372b9'
+    @api_key = api_key
 
   end
   def change_source_lang(source_language)
@@ -64,13 +64,3 @@ class Translator
   end
 end
 
-
-
-
-translator = Translator.new('ru', 'en')
-# translated_text = translator.translate('Привет! Ты кто такой?')
-# puts translated_text
-# translator.change_source_lang('en')
-# translator.change_target_lang('ru')
-# puts translator.translate('Yellow submarine')
-puts translator.view_code_all
