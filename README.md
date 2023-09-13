@@ -1,4 +1,4 @@
-# Gem_Translator
+# Gem_Translator [![Gem Version](https://badge.fury.io/rb/gem_translator.svg)](https://badge.fury.io/rb/gem_translator)
 Made using Rapid Api (Text Translator).
 Translate text to 100+ languages. Fast processing, cost saving. Free up to 100,000 characters per month.
 
