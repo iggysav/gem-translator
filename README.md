@@ -12,7 +12,7 @@ gem install my_gem
 ```shell
 require 'Gem_Translator'
 
-translator = Translator.new('en', 'ru') #First - source language, second - target language
+translator = Translator.new('en', 'ru', 'api') #First - source language, second - target language, api - your api from https://rapidapi.com/dickyagustin/api/text-translator2 (must registred)
 puts translator.translate('Yellow submarine') #Prompt for translate
 ```
 
